@@ -70,7 +70,7 @@ p {
 }
 .section__detail {
   font-size: 1.25rem;
-  font-family: "Domine";
+  font-family: "Domine", serif;
   color: var(--gray);
   max-width: 700px;
   margin: 0 auto;
@@ -289,7 +289,7 @@ header {
 
 .banner__detail {
   font-size: 1.5rem;
-  font-family: "Domine";
+  font-family: "Domine", serif;
   color: var(--gray);
   text-transform: capitalize;
   margin-top: 25px;
@@ -342,7 +342,7 @@ header {
   font-size: 1.25rem;
 }
 
-@media (min-width: 62rem) {
+@media (min-width: 62em) {
   #whatis .container {
     display: flex;
     justify-content: space-between;
